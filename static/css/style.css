@@ -5,13 +5,13 @@
 }
 @media (max-width:868px) {
 	.carousel-item {
-		height: 280px;
+		height: 220px;
 
 	}
 
 
 	.carousel-item img {
-		min-height: 300px;
+		min-height: 220px;
 
 	}
 	.carousel-caption h1 {
@@ -45,6 +45,11 @@
 .navbar-dark .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+.nav-right {
+  float: right;
+}
+
 
 .dropdown-menu {
 	background-color: transparent;
@@ -86,8 +91,16 @@ h1#header_title {
 
 
 
-
-
+.icon {
+    color:  #0dd9ed ;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+    margin-top: 9px;
+}
+ .tel {
+margin-left: 601px;
+ }
+ 
 
 /*
 	Thumbnail sizes:;
@@ -98,4 +111,3 @@ h1#header_title {
 */
 
 
-\
