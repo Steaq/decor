@@ -1,18 +1,26 @@
-@media (min-width:1265px) {
-	.carousel-item {
-		height: 775px;
+
+
 	}
+.dropdown-item {
+	margin-right: 30px;
 }
-@media (max-width:868px) {
-	.carousel-item {
-		height: 220px;
-
-	}
-
 
 	.carousel-item img {
-		min-height: 220px;
+		min-height: 190px;
 
+
+	}
+
+	.drop {
+		margin-right: 50px
+	}
+	.carouselExampleFade{
+		padding-bottom: 100px;
+	}
+
+	img {
+	max-width: 100%
+	height: auto;
 	}
 	.carousel-caption h1 {
 		font-size: 24px;
@@ -25,19 +33,92 @@
 .carousel-item {
 	background: #000000;
 }
+#btnGroupDrop1 {
+	color: #FFFFFF !important;
+	border: none;
+}
 .carousel-item img {
-	opacity: .8;
+	opacity: 1.0;
+}
+.call {
+	display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(236, 240, 241, 1);
+  border-radius: 8px;
+  color: #eab80f;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
 }
 
+.call:hover {
+color: #000000;
+background-color: rgb(255,255,255,0.3);
+}	
+
+.learning {
+display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgb(255,255,255,0.3);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  margin-right: 55px;
+  margin-bottom: 10px;
+  position: absolute;
+}
+ .learning;hover {
+ 	color: #000000;
+background-color: rgb(255,255,255,0.3);
+ }
+
+
+ .eskiz {
+ 	display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255,255,255,0.3);
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+ }
+ .eskiz:hover{
+ 	color: #fff;
+background-color: rgba(46, 49, 49, 1);
+ }
 .bg-dark {
 	background-color: #212121 !important;
 }
+.dropd {
+	background-color: #212121 !important;
+}
+
 
 .navbar-brand img {
 	width: 32px;
 	height: 32px;
 }
-
+.call {
+	font-size: 20px;
+}
 
 .navbar-dark .navbar-toggler {
 	border-color: transparent;
@@ -49,6 +130,7 @@
 .nav-right {
   float: right;
 }
+
 
 
 .dropdown-menu {
