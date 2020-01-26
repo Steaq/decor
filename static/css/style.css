@@ -47,9 +47,9 @@
   padding: 8px;
   width: 80%;
   max-width: 200px;
-  background: #fff; /* fallback color for old browsers */background: rgba(236, 240, 241, 1);
+  background: #fff; /* fallback color for old browsers */background: rgba(255,255,255,0.3);
   border-radius: 8px;
-  color: #eab80f;
+  color: #f7f9f9 ;
   text-align: center;
   text-decoration: none;
   letter-spacing: 1px;
@@ -57,10 +57,10 @@
 }
 
 .call:hover {
-color: #000000;
-background-color: rgb(255,255,255,0.3);
+color: #fff;
+background-color: rgba(46, 49, 49, 1);
 }	
-
+/*
 .learning {
 display: block;
   box-sizing: border-box;
@@ -68,7 +68,7 @@ display: block;
   padding: 8px;
   width: 80%;
   max-width: 200px;
-  background: #fff; /* fallback color for old browsers */background: rgb(255,255,255,0.3);
+  background: #fff; background: rgb(255,255,255,0.3);
   border-radius: 8px;
   color: #fff;
   text-align: center;
@@ -92,7 +92,7 @@ background-color: rgb(255,255,255,0.3);
   padding: 8px;
   width: 80%;
   max-width: 200px;
-  background: #fff; /* fallback color for old browsers */background: rgba(255,255,255,0.3);
+  background: #fff; background: rgba(255,255,255,0.3);
   border-radius: 8px;
   color: #000;
   text-align: center;
@@ -102,7 +102,170 @@ background-color: rgb(255,255,255,0.3);
  }
  .eskiz:hover{
  	color: #fff;
-background-color: rgba(46, 49, 49, 1);
+background-color: rgba(46, 49, 49, 1); 
+ } */
+ figure:hover .ha, figure:hover .ha1, figure:hover .ha2, figure:hover .ha3, figure:hover .ha4, figure:hover .ha5, figure:hover .ha6, figure:hover .ha7, figure:hover .ha8, figure:hover .ha9, figure:hover .ha10, figure:hover .ha11  {
+ 	
+ 	transition: all 0.3s ease-out;
+ 	visibility:visible;
+ }
+ 
+ figure:hover {
+ 	opacity: .5;
+ 	transition: all 0.3s ease-out;
+ 	
+ }
+ .ha {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 87%;
+ 	left: 15.5%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha1 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 87%;
+ 	left: 48%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha2 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 87%;
+ 	left: 80%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha3 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 62%;
+ 	left: 15.5%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha4 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 62%;
+ 	left: 48%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha5 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 62%;
+ 	left: 80%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha6 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 38%;
+ 	left: 15.5%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha7 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 38%;
+ 	left: 48%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha8 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 38%;
+ 	left: 80%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha9 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 11%;
+ 	left: 15.5%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha10 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 11%;
+ 	left: 48%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha11 {
+ 	position: absolute;
+ 	text-align: center;
+ 	bottom: 11%;
+ 	left: 80%;
+ 	visibility:hidden;
+ 	size: 70px;
+ 	color: #000;
+ 	cursor: pointer;
+ 	max-width: 100%
+	height: auto;
+ }
+ .ha:hover .ha1:hover{
+ 	visibility:visible;
+
+ }
+
+ .pointer {
+ 	margin-bottom: 15px;
  }
 .bg-dark {
 	background-color: #212121 !important;
