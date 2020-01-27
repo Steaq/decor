@@ -506,8 +506,8 @@ a:hover, a:active {
 }
 
 
-.glyphicon {
-	width: 24px !important;
-    height: 24px !important;
-}
+.far {
+      font-size: 40px;
+      color:  #f1c40f ;
+      }
 
