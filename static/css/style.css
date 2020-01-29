@@ -1,9 +1,20 @@
-
+.decor-photo {
+  width: 100%;
+  height: auto;
+}
+iframe {
+  width: auto;
+  height: auto;
+}
+.ott {
+  font-family: "Arial Black" sans-serif ;
+}
 
 	}
 .dropdown-item {
 	margin-right: 30px;
 }
+
 
 	.carousel-item img {
 		min-height: 190px;
