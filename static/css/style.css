@@ -471,7 +471,7 @@ opacity: .1;}}
     height:1080;
     frameborder:0;
     border:0;
-    
+
    }
 
   .aboutus-section {
@@ -809,6 +809,12 @@ a:hover, a:active {
 
 }
 
+.cont span {
+  color: #000000;
+}
 
+.cont span:hover {
+  opacity: 0.3;
+}
 
 
