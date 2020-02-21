@@ -32,9 +32,16 @@ p {
 .banner-section .container {
   z-index: 1;
 }
+.col12 {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .section {
+  display: flex;
+  flex-wrap: wrap;
   padding: 50px 0 0 0;
+  overflow-x: hidden
 }
 
 .nav-pills .nav-item:not(:last-child) {
