@@ -19,6 +19,76 @@ figure, a {
 	margin-right: 30px;
 }
 
+.error-img img {
+  width: 100%;
+}
+
+.error h1 {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 2%;
+  top: 9%;
+  font-weight: 700;
+  font-size:4vw;
+  text-transform: uppercase;
+  color: black;
+  z-index: 1;
+  transition: top .5s ease;
+  font-family: Geneva, Arial, Helvetica, sans-serif,;
+}
+
+
+
+.error h3 {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 2%;
+  top: 150px;
+  font-weight: 200;
+  font-size:4vw;
+  text-transform: uppercase;
+  color: #505355;
+  z-index: 1;
+  transition: top .5s ease;
+  font-family: Geneva, Arial, Helvetica, sans-serif,;
+}
+.back  {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 2%;
+  top: 200px;
+  font-weight: 200;
+  font-size:4vw;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+  font-family: Geneva, Arial, Helvetica, sans-serif,;
+}
+}
+.error .btn{
+  color: #000;
+}
+
+@media(max-width: 667px;) and (min-width: 375px;) {
+  .error h3 {
+    text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 3%;
+  top: 30%;
+  font-weight: 200;
+  font-size:30px;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+  font-family: Geneva, Arial, Helvetica, sans-serif,;
+}
+}
 
 	.carousel-item img {
 		min-height: 190px;
