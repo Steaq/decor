@@ -701,32 +701,38 @@ a:hover, a:active {
   left: 0;
 }
 
-.titleus {
-  text-align: center;
+
+
+ .titleus {
   position: absolute;
-  width: 500px;
-  left: 32%;
-  top: 150px;
+  width: 300px;
+  left:47%;
+  top: 200px;
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
   text-transform: uppercase;
   color: white;
   z-index: 1;
   transition: top .5s ease;
+  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+  margin-left: -125px; /* Отрицательный от*/
 }
 
 .cantainerus:hover .titleus {
-  top: 90px;
+  top: 190px;
+
 }
 
 .buttonrus {
   position: absolute;
-  width: 500px;
-  left:32%;
-  top: 230px;
+  width: 300px;
+  left:47%;
+  top: 350px;
   text-align: center;
   opacity: 0;
-  transition: opacity .35s ease;
+  transition: opacity .35s ease;  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+  margin-left: -125px; /* Отрицательный от*/
 }
 
 .buttonrus a {
@@ -742,143 +748,38 @@ a:hover, a:active {
   opacity: 1;
 }
 
-@media(max-width: 667px) and (min-width: 320px){
-  .cantainerus {
-  position: relative;
-  
-  width: 100%;
-  height: 300px;
-}
-  .titleus {
-  position: absolute;
-  width: 300px;
-  left:10%;
-  top: 100px;
-  font-weight: 700;
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  z-index: 1;
-  transition: top .5s ease;
-
-}
-.buttonrus {
-  position: absolute;
-  width: 300px;
-  left:10%;
-  top: 180px;
-  text-align: center;
-  opacity: 1;
-  transition: opacity .35s ease;
-}
-
-}
-
-
-
 
 @media(max-width: 1024px) and (min-width: 768px){
-  .cantainerus {
-  position: relative;
-  
-  width: 100%;
-  height: 400px;
-}
   .titleus {
-  position: absolute;
-  width:300px;
-  left:30%;
-  top: 100px;
-  font-weight: 700;
-  font-size: 22px;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  z-index: 1;
-  transition: top .5s ease;
-
-}
-.buttonrus {
-  position: absolute;
-  width: 300px;
-  left:30%;
-  top: 220px;
-  text-align: center;
-  opacity: 1;
-  transition: opacity .35s ease;
-}
-
-}
-
-
-
-@media(max-width: 740px) and (min-width: 360px){
-  .cantainerus {
-  position: relative;
-  
-  width: 100%;
-  height: 300px;
-}
+    font-size: 100%;
+    top: 256px;
+  }
+  .buttonrus {
+  opacity: 1
+  }
+  }
+@media(max-width: 667px) and (min-width: 275px){
   .titleus {
-  position: absolute;
-  width: 300px;
-  left:9%;
-  top: 100px;
-  font-weight: 700;
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  z-index: 1;
-  transition: top .5s ease;
-
-}
-.buttonrus {
-  position: absolute;
-  width: 300px;
-  left:9%;
-  top: 180px;
-  text-align: center;
-  opacity: 1;
-  transition: opacity .35s ease;
-}
-
-}
-
-
-@media(max-width: 736px) and (min-width: 414px){
-  .cantainerus {
-  position: relative;
-  
-  width: 100%;
-  height: 300px;
-}
+    font-size: 100%;
+    top: 256px;
+  }
+  .buttonrus {
+  opacity: 1
+  }
+  }
+  @media(max-width: 768px) and (min-width: 414px){
   .titleus {
-  position: absolute;
-  width: 300px;
-  left:15%;
-  top: 100px;
-  font-weight: 700;
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  z-index: 1;
-  transition: top .5s ease;
+    font-size: 100%;
+    top: 256px;
+  }
+  .buttonrus {
+  opacity: 1
+  }
+  }
 
-}
-.buttonrus {
-  position: absolute;
-  width: 300px;
-  left:15%;
-  top: 180px;
-  text-align: center;
-  opacity: 1;
-  transition: opacity .35s ease;
-}
 
-}
+
+
 
 .cont span {
   color: #000000;
