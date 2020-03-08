@@ -5,7 +5,7 @@ body {
 
 .decor-photo {
   width: 100%;
-  height: auto;
+  height: 450px;
 }
 iframe {
   width: 100%;
@@ -96,7 +96,7 @@ figure, a {
 }
 
 	.carousel-item img {
-		min-height: 190px;
+		height: 400px;
 
 
 	}
@@ -704,7 +704,9 @@ a:hover, a:active {
       font-size: 40px;
       color:  #f1c40f ;
       }
-
+.second-title{
+  font-family: Gill Sans, sans-serif;
+}
 
 
 
@@ -716,7 +718,7 @@ a:hover, a:active {
   position: relative;
   
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 .overlays {
@@ -737,7 +739,7 @@ a:hover, a:active {
    .imgrus img  {
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: 600px;
   left: 0;
 }
 
@@ -748,7 +750,7 @@ a:hover, a:active {
   position: absolute;
   width: 300px;
   left:47%;
-  top: 200px;
+  top: 300px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -761,7 +763,7 @@ a:hover, a:active {
 }
 
 .cantainerus:hover .titleus {
-  top: 190px;
+  top: 290px;
 
 }
 
@@ -769,7 +771,7 @@ a:hover, a:active {
   position: absolute;
   width: 300px;
   left:47%;
-  top: 350px;
+  top: 450px;
   text-align: center;
   opacity: 0;
   transition: opacity .35s ease;  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
@@ -790,21 +792,43 @@ a:hover, a:active {
 }
 
 
-@media(max-width: 1024px) and (min-width: 768px){
+@media(max-width: 1024px) and (min-width: 668px){
+  .cantainerus {
+
+height: 390px !important;
+
+}
+
+.imgrus img{
+  height: 390px !important;
+}
+
+.overlays {
+  height: 390px !important;
+}
   .titleus {
     font-size: 100%;
-    top: 256px;
+    top: 250px;
   }
   .buttonrus {
+    top: 356px;
   opacity: 1
   }
   }
 @media(max-width: 667px) and (min-width: 275px){
+
+.cantainerus {
+
+height: 400px !important;
+
+}
+
   .titleus {
     font-size: 100%;
     top: 256px;
   }
   .buttonrus {
+    top: 400px;
   opacity: 1
   }
   }
@@ -853,6 +877,18 @@ a:hover, a:active {
   column-count: 2;
   column-gap: 200px;
 }
+
+@media(max-width: 1024px)and(min-width: 668px){
+  .card-columnss {
+  
+  column-count: 1 !important;
+  column-gap: 10px !important;
+}
+
+
+
+}
+
 .about-main p {
   text-align: right;
 }
@@ -895,5 +931,35 @@ a:hover, a:active {
     
     background-position: center top;
   background-size:cover;
+
+}
+
+.more {
+  text-align: center;
+}
+.more a{
+text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+.more a:hover {background-position: right center;}
+}
+
+
+
+
+
+
 
 
