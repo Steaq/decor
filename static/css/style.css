@@ -822,6 +822,13 @@ height: 390px !important;
 height: 400px !important;
 
 }
+.imgrus img{
+  height: 400px !important;
+}
+
+.overlays {
+  height: 400px !important;
+}
 
   .titleus {
     font-size: 100%;
