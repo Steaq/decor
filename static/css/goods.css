@@ -15,7 +15,13 @@ html {
   align-items: center;
 }
 
-
+.feidall{
+  opacity: 0.5
+}
+.feidall:hover {
+  opacity: 1;
+  transition: all 0.7s ease-out;
+  }
 
 .flex-centerY-centerX {
   justify-content: center;
