@@ -93,6 +93,7 @@ figure, a {
   transition: top .5s ease;
   font-family: Geneva, Arial, Helvetica, sans-serif,;
 }
+
 }
 
 	.carousel-item img {
@@ -727,13 +728,13 @@ a:hover, a:active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .7);
   transition: background 0.5s ease;
 }
 
 .cantainerus:hover .overlays {
   display: block;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .6);
 }
 
    .imgrus img  {
@@ -745,11 +746,30 @@ a:hover, a:active {
 
 
 
+.titleus1 {
+   font-family: Andale Mono, monospace;
+  position: absolute;
+  width: 400px;
+  left:44%;
+  top: 250px;
+  
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+  margin-left: -125px; /* Отрицательный от*/
+}
+
+
+
  .titleus {
   font-family: Andale Mono, monospace;
   position: absolute;
-  width: 300px;
-  left:47%;
+  width: 500px;
+  left:44%;
   top: 300px;
   font-weight: 700;
   font-size: 30px;
@@ -767,10 +787,15 @@ a:hover, a:active {
 
 }
 
+.cantainerus:hover .titleus1 {
+  top: 240px;
+
+}
+
 .buttonrus {
   position: absolute;
   width: 300px;
-  left:47%;
+  left:25%;
   top: 450px;
   text-align: center;
   opacity: 0;
@@ -791,6 +816,65 @@ a:hover, a:active {
   opacity: 1;
 }
 
+.callme {
+  margin-left: 399px;
+}
+
+.callme a {
+  color: white !important;
+
+}
+
+.buttonrus2 {
+  position: absolute;
+  width: 300px;
+  left:49%;
+  top: 450px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+  margin-left: -125px; /* Отрицательный от*/
+}
+
+
+.buttonrus3 {
+  position: absolute;
+  width: 300px;
+  left:74%;
+  top: 450px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+  margin-left: -125px; /* Отрицательный от*/
+}
+
+
+.buttonrus2 a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+
+
+.buttonrus3 a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+.cantainerus:hover .buttonrus2 {
+  opacity: 1;
+}
+
+.cantainerus:hover .buttonrus3 {
+  opacity: 1;
+}
 
 @media(max-width: 1024px) and (min-width: 668px){
   .cantainerus {
@@ -808,12 +892,73 @@ height: 390px !important;
 }
   .titleus {
     font-size: 100%;
-    top: 250px;
+    top: 230px;
+    left: 260px;
+  }
+  .titleus1 {
+    
+    top: 210px;
+    left: 260px;
   }
   .buttonrus {
     top: 356px;
   opacity: 1
   }
+  .buttonrus2 {
+    top: 356px;
+    left: 500px;
+  opacity: 1
+  }
+  .buttonrus3 {
+    top: 436px;
+    left: 380px;
+  opacity: 1
+  }
+  }
+
+  @media(max-width: 667px;) and (min-width: 565px;) {
+
+
+.titleus {
+    font-size: 100%;
+    top: 230px;
+    width: 275px;
+    left: 330px;
+  }
+  .titleus1 {
+    font-size: 100%;
+    top: 180px;
+    width: 275px;
+    left: 330px;
+  }
+  .buttonrus {
+    top: 330px;
+    left:114px;
+  opacity: 1;
+  size:60%;
+  }
+  .buttonrus2 {
+    top: 385px;
+    left:114px;
+  opacity: 1;
+  size:60%;
+  }
+  .buttonrus3 {
+    top: 440px;
+    left:114px;
+  opacity: 1;
+  size:60%;
+  }
+  .cantainerus:hover .titleus {
+  top: 230px;
+
+}
+
+.cantainerus:hover .titleus1 {
+  top: 180px;
+
+}
+
   }
 @media(max-width: 667px) and (min-width: 275px){
 
@@ -832,13 +977,47 @@ height: 400px !important;
 
   .titleus {
     font-size: 100%;
-    top: 256px;
+    top: 230px;
+    width: 275px;
+    left: 180px;
+  }
+  .titleus1 {
+    font-size: 80%;
+    top: 200px;
+    width: 275px;
+    left: 160px;
   }
   .buttonrus {
-    top: 400px;
-  opacity: 1
+    top: 330px;
+    left:165px;
+  opacity: 1;
+  size:60%;
   }
+  .buttonrus2 {
+    top: 385px;
+    left:165px;
+  opacity: 1;
+  size:60%;
   }
+  .buttonrus3 {
+    top: 440px;
+    left:165px;
+  opacity: 1;
+  size:60%;
+  }
+  .cantainerus:hover .titleus {
+  top: 230px;
+
+}
+
+.cantainerus:hover .titleus1 {
+  top: 180px;
+
+}
+  }
+
+
+
   @media(max-width: 768px) and (min-width: 414px){
   .titleus {
     font-size: 100%;
@@ -847,8 +1026,47 @@ height: 400px !important;
   .buttonrus {
   opacity: 1
   }
+  .titleus {
+    font-size: 100%;
+    top: 230px;
+    width: 275px;
+    left: 200px;
   }
+  .titleus1 {
+    font-size: 70%;
+    top: 200px;
+    width: 275px;
+    left: 180px;
+  }
+  .buttonrus {
+    top: 330px;
+    left:185px;
+  opacity: 1;
+  size:60%;
+  }
+  .buttonrus2 {
+    top: 385px;
+    left:185px;
+  opacity: 1;
+  size:60%;
+  }
+  .buttonrus3 {
+    top: 440px;
+    left:185px;
+  opacity: 1;
+  size:60%;
+  }
+  .cantainerus:hover .titleus {
+  top: 230px;
 
+}
+
+.cantainerus:hover .titleus1 {
+  top: 180px;
+
+}
+  }
+ 
 
    .leftimg {
          
@@ -892,7 +1110,9 @@ height: 400px !important;
   column-gap: 10px !important;
 }
 
-
+.titleus {
+top: 20px;
+}
 
 }
 
@@ -963,9 +1183,18 @@ text-decoration: none;
 .more a:hover {background-position: right center;}
 }
 
-
-
-
+@media(max-width: 669px) and (min-width: 669px){
+.buttonrus3 {
+  position: absolute;
+  width: 300px;
+  left:45%;
+  top: 350px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity .35s ease;  margin-top: -125px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+  margin-left: -125px; /* Отрицательный от*/
+}
+}
 
 
 
