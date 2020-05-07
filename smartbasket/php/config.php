@@ -4,7 +4,7 @@
 		
 
 		  require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
-		  const HOST = 'smtp.gmail.com';
+		  const HOST = 'smtp.mail.ru';
 		  const LOGIN = 'zzzelen01@mail.ru';
 		  const PASS = 'Ss123!!?';
 		  const PORT = '465';
