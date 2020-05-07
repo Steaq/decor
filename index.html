@@ -135,7 +135,7 @@ src="https://www.facebook.com/tr?id=228250135286284&ev=PageView
   <h5 class="titleus1 title  center">Здравствуйте, мы Vincenzo decor</h5>
   <h1 class="titleus title  center">Мы занимаемся декоративной штукатуркой в сроки и по фиксированной цене </h1>
   <div class="overlay overlays"></div>
-  <div class="button buttonrus"><a href="tel:+(380)-99-124-19-74"> Заказать звонок </a></div>
+  <div class="button buttonrus" data-toggle="modal" data-target="#exampleModal"><a> Заказать звонок </a></div>
   <div class="button buttonrus2"><a href="tel:+(380)-99-124-19-74"> Заказать материал </a></div>
   <div class="button buttonrus3"><a href="tel:+(380)-99-124-19-74"> Расчитать стоимость </a></div>
 </div>
@@ -165,7 +165,40 @@ src="https://www.facebook.com/tr?id=228250135286284&ev=PageView
 
 		<!-- начало основного контента -->
 		<main>
+      
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="message/mail.php" method="POST">
+            <legend>Заголовок формы</legend>
+
+            <div class="form-group">
+              <label for="">Введите ваше имя</label>
+              <input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
+            </div>
+          
+            <div class="form-group">
+              <label for="">Введите номер телефона</label>
+              <input type="text" class="form-control" id="" name="user_phone" placeholder="+38 (099) 99 99 999">
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить форму</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
