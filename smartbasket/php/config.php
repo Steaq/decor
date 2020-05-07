@@ -1,9 +1,9 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/phpmailer.php');
+    require_once($_SERVER['DOCUMENT_ROOT'] . 'smartbasket/php/phpmailer/phpmailer.php');
 
 		
 
-		  require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
+		  require_once($_SERVER['DOCUMENT_ROOT'] . 'smartbasket/php/phpmailer/smtp.php');
 		  const HOST = 'smtp.mail.ru';
 		  const LOGIN = 'zzzelen01@mail.ru';
 		  const PASS = 'Ss123!!?';
