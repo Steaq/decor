@@ -12,7 +12,7 @@
 		// *** /SMTP *** //
    
     const SENDER = 'zzzelen01@mail.ru';
-    const CATCHER = 'kokag40395@zaelmo.com';
+    const CATCHER = 'doris-alex@yandex.ua';
     const SUBJECT = 'Заявка с сайта';
     const CHARSET = 'UTF-8';
     
