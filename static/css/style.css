@@ -22,6 +22,11 @@ figure, a {
   cursor: pointer;
 }
 
+
+.more1 {
+  left: 20%;
+}
+
 	}
 .dropdown-item {
 	margin-right: 30px;
@@ -1151,7 +1156,7 @@ top: 20px;
 }
 
 
-.home {
+#home {
     width: 110%;
     height: 100%;
     display: block;
