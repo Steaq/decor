@@ -411,10 +411,30 @@ background-color: rgba(46, 49, 49, 1);
  	margin-bottom: 15px;
  }
 .bg-dark {
-	background-color: #212121 !important;
+	background-color: #ca8f22 !important;
+}
+.bg-lightt{
+  background-color: #212121 !important;
 }
 .dropd {
 	background-color: #212121 !important;
+}
+
+.text-mutedd {
+  color: white !important;
+}
+
+.vibirite {
+ width: 100%;
+    height: 60vh;
+    display: block;
+    
+    
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.ibb.co/ZgL70MM/IMG-1859-min.jpg);
+     background-repeat: no-repeat;
+ 
+    background-position: center top;
+  background-size:cover;
 }
 
 
@@ -1166,7 +1186,7 @@ top: 20px;
     display: block;
     
     
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../bg/ofis.jpg);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://mr-build.ru/wp-content/uploads/2016/01/betonnaya-stena-1024x576.jpg);
     
     background-position: center top;
   background-size:cover;
@@ -1210,4 +1230,17 @@ text-decoration: none;
 
 
 
+}
+.titleimage img{
+width: 70px !important; 
+margin-left: -1050px !important; 
+margin-top: -120px !important;
+
+}
+@media screen and (max-width:1000px) {
+.titleimage img {
+margin-left: -260px !important;
+margin-top: -90px !important;
+width: 60px;
+}
 
