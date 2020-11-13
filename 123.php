@@ -19,13 +19,13 @@ $q2 = false;
 */
 
 
-$white = rand(1, 5);
+$white = rand(1, 9);
 echo $white.'<br>'; 
 if ($white == 2 or $white == 5) {
 	echo 'У меня всё получилось'; 
 }
 echo '<hr>';
-for ($i==1; $i<9; $i++) {
+for ($i==1; $i<$white; $i++) {
 	echo $i.'<br>';
 }
 
