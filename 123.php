@@ -26,7 +26,7 @@ if ($white == 2 or $white == 5) {
 }
 echo '<hr>';
 for ($i==1; $i<$white; $i++) {
-	echo $i.'<br>'
+	echo $i.'<br>';
 }
 
 ?>
