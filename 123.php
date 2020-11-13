@@ -24,4 +24,9 @@ echo $white.'<br>';
 if ($white == 2 or $white == 5) {
 	echo 'У меня всё получилось'; 
 }
+echo '<hr>';
+for ($i==1; $i<9; $i++) {
+	echo $i.'<br>';
+}
+
 ?>
