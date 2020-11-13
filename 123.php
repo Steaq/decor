@@ -20,7 +20,7 @@ $q2 = false;
 
 
 $white = rand(1, 5);
-echo $white.'br'; 
+echo $white.'<br>'; 
 if ($white == 2 or $white == 5) {
 	echo 'У меня всё получилось'; 
 }
