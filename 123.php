@@ -32,7 +32,9 @@ for ($i==1; $i<$white; $i++) {
 }
 //$_SESSION["ya"] = 1;
 
-
+echo "<pre>";
+print_r($_POST["ua"]);
+echo "</pre>";
 ?>
 
 <form action="" method="POST">
