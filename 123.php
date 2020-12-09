@@ -19,7 +19,7 @@ $q1 = true;
 $q2 = false;
 */
 
-if (isset($_GET["ua"])) {
+if (isset($_POST["ua"])) {
 $white = rand(1, 9);
 echo $white.'<br>'; 
 if ($white == 2 or $white == 5) {
@@ -35,7 +35,7 @@ for ($i==1; $i<$white; $i++) {
 
 ?>
 
-<form action="" method="GET">
+<form action="" method="POST">
 	<input type="text" name="ua">
 	<button type="submit" name="ea">Отправить</button>
 
