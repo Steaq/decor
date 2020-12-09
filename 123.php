@@ -33,7 +33,7 @@ for ($i==1; $i<$white; $i++) {
 //$_SESSION["ya"] = 1;
 
 echo "<pre>";
-print_r($_POST["ua"]);
+print_r($_POST);
 echo "</pre>";
 ?>
 
