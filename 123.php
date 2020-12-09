@@ -18,7 +18,7 @@ if ($a3 == 50) {
 $q1 = true;
 $q2 = false;
 */
-
+$ios = array();
 if (isset($_POST["ua"])) {
 $white = rand(1, 9);
 echo $white.'<br>'; 
@@ -28,12 +28,14 @@ if ($white == 2 or $white == 5) {
 echo '<hr>';
 for ($i==1; $i<$white; $i++) {
 	echo $i.'<br>';
+	$ios[$i] = rand(99, 999);
+
 }
 }
 //$_SESSION["ya"] = 1;
 
 echo "<pre>";
-print_r($_POST);
+print_r($ios);
 echo "</pre>";
 ?>
 
