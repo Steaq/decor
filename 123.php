@@ -31,15 +31,15 @@ for ($i==1; $i<$white; $i++) {
 	$ios[$i][] = rand(99, 999);
 	$ios[$i][] = rand(99, 999);
 }
-//foreach ($ios as $key => $value) {
-	//echo $value. "<br>";
-//}
+foreach ($ios as $key => $value) {
+	echo $value[0]. " - ".$value[1]."<br>";
+}
 }
 //$_SESSION["ya"] = 1;
 
-echo "<pre>";
-print_r($ios);
-echo "</pre>";
+//echo "<pre>";
+//print_r($ios);
+//echo "</pre>";
 ?>
 
 <form action="" method="POST">
