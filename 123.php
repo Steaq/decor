@@ -1,4 +1,5 @@
 <?php
+session_start();
 /*$a1 = 10;
 $a2 = 5;
 $a3 = $a1 * $a2;
@@ -29,4 +30,13 @@ for ($i==1; $i<$white; $i++) {
 	echo $i.'<br>';
 }
 
+$_SESSION["ya"] = 1;
+
+
 ?>
+
+<form action="" method="GET">
+	<input type="text" name="ua">
+	<button type="submit" name="ea">Отправить</button>
+	
+</form>
