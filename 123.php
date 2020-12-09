@@ -19,7 +19,7 @@ $q1 = true;
 $q2 = false;
 */
 
-
+if (isset($_GET["ua"])) {
 $white = rand(1, 9);
 echo $white.'<br>'; 
 if ($white == 2 or $white == 5) {
@@ -29,8 +29,8 @@ echo '<hr>';
 for ($i==1; $i<$white; $i++) {
 	echo $i.'<br>';
 }
-
-$_SESSION["ya"] = 1;
+}
+//$_SESSION["ya"] = 1;
 
 
 ?>
@@ -38,5 +38,5 @@ $_SESSION["ya"] = 1;
 <form action="" method="GET">
 	<input type="text" name="ua">
 	<button type="submit" name="ea">Отправить</button>
-	
+
 </form>
