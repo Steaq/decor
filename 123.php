@@ -11,7 +11,7 @@ if ($a3 == 50) {
 } else if ($a3 > 50) {
 	echo "0";
 } else {
-
+†
  echo "100";	
 }
 
